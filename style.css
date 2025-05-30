@@ -1,0 +1,149 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main_nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background-color: #004792;
+  color: #fff;
+}
+
+.left_item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.left_item img{
+  width: 50px;
+  height: auto;
+  border: 1px solid white;
+  border-radius: 50%;
+  padding: 2px;
+  margin-right: 10px;
+}
+
+.middle_item ul{
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.middle_item li{
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.right_item button{
+  background-color: blue;
+  padding: 10px 20px;
+  border-radius: 50px;
+  text-decoration: none;
+  color: #fff;
+}
+
+main{
+  display: flex;
+  align-items: center;
+  padding: 50px;
+  background-color: #fff;
+}
+
+.my_name{
+  flex: 1;
+
+}
+
+.my_picture{
+  flex: 1;
+}
+
+.my_name h1 #hi{
+  color: #7cb9e8;
+}
+
+.my_name h1 #i{
+  color: #5f9ea0;
+}
+
+.my_name h1 #am{
+  color: #0e3386;
+}
+
+.my_name h1 #mr{
+  color: #318ce7;
+}
+
+.my_name h1 #joshua{
+  color: #004792;
+}
+
+.my_name h1 #kalel{
+  color: #70ab70;
+}
+
+.my_name h1{
+  font-size: 40px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.my_picture{
+  width: 100%;
+  height: auto;
+}
+
+section{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  background-color: #b0c4de;
+  padding: 50px;
+}
+
+.courses{
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.allSubjects{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.subjects{
+  padding: 20px;
+  background-color: #b0c4de;
+  border-radius: 10%;
+  border: 1px solid blue;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.course_button{
+  padding: 10px 20px;
+  margin-top: 20px;
+  background-color: blue;
+  color: #fff;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+footer{
+  
+}
+
+
+
